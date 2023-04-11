@@ -10,7 +10,9 @@ public class EjemployExplicacionBufferedOutputStream {
          *          java.io.BufferedOutputStream
          *
          * Parecido al ejemplo anterior, con la diferencia que usar un "buffer" en el flujo de salida, mucho más eficiente
-         * a la ahora de escribir los datos
+         * a la hora de la escritura de un OutputStream. Su funcionamiento consiste en ir acumulando la información en una instancia
+         * de la memoria y enviarla de golpe, en vez de introducirla poco a poco en ese espacio de memoria. Cuando nos referimos a buffer nos
+         * referimos a una zona de memoria temporal.
          * *
          */
         FileOutputStream archivoFueraFlujo=null;

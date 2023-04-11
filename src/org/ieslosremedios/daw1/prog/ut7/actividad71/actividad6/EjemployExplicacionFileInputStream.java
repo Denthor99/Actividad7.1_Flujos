@@ -1,6 +1,10 @@
 package org.ieslosremedios.daw1.prog.ut7.actividad71.actividad6;
 import java.io.*;
 public class EjemployExplicacionFileInputStream {
+    /**
+     * Esta clase se usa para realizar una lectura de un flujo de bytes sin procesar almacenado en un fichero de texto,
+     * como podría ser datos relativos a una imagen
+     * */
     public static void main(String[] args) throws IOException{
         FileInputStream filer=null;
         try {
